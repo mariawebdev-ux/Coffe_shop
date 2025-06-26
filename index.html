@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Coffee-Website</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" />
+</head>
+<body>
+    
+    <header class="navbar">
+        <div class="container">
+            <div class="logo">
+                <i class="fa-solid fa-mug-hot"></i> Lagos<span>Latte</span>
+            </div>
+
+            <div class="nav-links" id="navLinks">
+                <a href="#home">Home</a>
+                <a href="#menu">Menu</a>
+                <a href="#about">About</a>
+                <a href="#contact">Contact</a>
+            </div>
+
+            <div class="icons">
+                <div class="toggle-theme" id="themeToggle">
+                    <i class="fa-solid fa-moon" id="theme-icon"></i>
+                </div>
+
+                <div class="hamburger" id="hamburger">
+                    <i class="fa-solid fa-bars"></i>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <section class="hero-section" id="home">
+        <div class="hero-glass">
+            <div class="hero-text">
+                <h1>Start Your Day <span>Right</span></h1>
+                <p>Experience the aroma of freshly brewed made just for you.</p>
+                <a href="#" class="hero-btn">Order Now</a>
+            </div>
+            <div class="hero-image">
+                <img src="images/hero-img -coffee.png" alt="hero-img -coffee">
+            </div>
+        </div>
+    </section>
+
+    <section class="features-section">
+        <div class="features-title">
+            <h2>Why <span>Choose Us</span></h2>
+            <p>We’re proudly rooted in our local culture, celebrating the rich traditions of coffee while supporting our community with every cup we serve.
+</p>
+        </div>
+
+        <div class="features-grid">
+            <div class="feature-card">
+                <i class="fa-solid fa-mug-saucer"></i>
+                <h3>Premium Beans</h3>
+                <p>We source only the finest beans to ensure rich flavor and exceptional quality in every cup.</p>
+            </div>
+
+            <div class="feature-card">
+                <i class="fa-solid fa-mug-hot"></i>
+                <h3>Handcrafted</h3>
+                <p>Every drink is handcrafted with care by skilled baristas to give you the perfect taste.</p>
+            </div>
+
+            <div class="feature-card">
+                <i class="fa-solid fa-seedling"></i>
+                <h3>Sustainable</h3>
+                <p>We are committed to sustainability and environmentally friendly sourcing practices.</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="menu-advanced" id="menu">
+        <div class="menu-adv-title">
+            <h2>Signature <span>Drinks</span></h2>
+            <p>Explore our carefully crafted menu of delicious, signature coffee drinks.</p>
+        </div>
+
+        <div class="menu-adv-grid">
+            <div class="menu-adv-card">
+                <div class="menu-adv-img">
+                    <img src="images/Espresso.png" alt="Espresso">
+                </div>
+                <div class="menu-adv-info">
+                    <h3>Espresso</h3>
+                    <p>An exquisite shot of deep-roasted coffee, crafted for those who appreciate the art of bold flavor.</p>
+                    <span>#35000.01</span>
+                </div>
+            </div>
+
+            <div class="menu-adv-card">
+                <div class="menu-adv-img">
+                    <img src="images/Latte.png" alt="Latte">
+                </div>
+                <div class="menu-adv-info">
+                    <h3>Latte</h3>
+                    <p>Silky, mellow, and beautifully layered ; the latte is a gentle embrace in every cup.</p>
+                    <span>#35000.01</span>
+                </div>
+            </div>
+
+            <div class="menu-adv-card">
+                <div class="menu-adv-img">
+                    <img src="images/Mocha.png" alt="Mocha">
+                </div>
+                <div class="menu-adv-info">
+                    <h3>Mocha</h3>
+                    <p>Like coffee and hot chocolate fell in love ; sweet, bold, and totally irresistible!.</p>
+                    <span>#35000.01</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="testimonials-section">
+        <div class="testimonials-title">
+            <h2>What Our <span>Customers</span></h2>
+        </div>
+
+        <div class="testimonials-carousel">
+            <button class="carousel-btn prev" aria-level="Previous testimonial">
+                <i class="fa-solid fa-chevron-left"></i>
+            </button>
+
+            <div class="testimonials-wrapper">
+                <div class="testimonial-card active">
+                    <p>So smooth and velvety! The latte here always hits the spot.Not too strong, not too sweet. Just perfect every time..</p>
+                    <div class="testimonial-author">
+                        <img src="images/kk.jpg" alt="Customer-1">
+                        <div>
+                            <h4>Ayo.</h4>
+                            <small>Regular Customer</small>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="testimonial-card ">
+                    <p>As a lifelong coffee lover, I can say this cup exceeded expectations. Rich aroma, bold flavor, and a finish that lingers. It’s the kind of brew that reminds you why you fell in love with coffee in the first place.</p>
+                    <div class="testimonial-author">
+                        <img src="images/David.jpg" alt="Customer-2">
+                        <div>
+                            <h4>David M.</h4>
+                            <small>Coffee Enthusiast</small>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="testimonial-card active">
+                    <p>Design fuels my creativity — and so does this coffee. The smooth texture, layered flavors, and perfectly balanced roast are as well-crafted as a beautiful interface. It’s not just a drink; it’s inspiration in a cup.</p>
+                    <div class="testimonial-author">
+                        <img src="images/Emily.jpg" alt="Customer-3">
+                        <div>
+                            <h4>Emily R.</h4>
+                            <small>Desiner</small>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <button class="carousel-btn next" aria-label="Next testimonial">
+                <i class="fa-solid fa-chevron-right"></i>
+            </button>
+        </div>
+    </section>
+
+
+    <section class="about-section" id="about">
+        <div class="about-container">
+            <div class="about-text">
+                <h2>About <span>Our Coffee</span></h2>
+                <p>
+                    Our coffee is made with love, using the finest beans and crafted to brighten your day.
+                </p>
+                <p>
+                    At LagosLatte, we take pride in serving expertly brewed coffee made from premium, ethically sourced beans.
+                </p>
+                <a href="#menu" class="btn btn-primary">Explore Menu</a>
+            </div>
+
+            <div class="about-image">
+                <img src="images/Coffee beans and cup.jpg" alt="Coffee beans and cup">
+                <div class="decorative-shope"></div>
+            </div>
+        </div>
+    </section>
+
+    <section class="specialties-section">
+        <div class="container specialties-container">
+
+            <h2 class="section-title">Why <span>Choose Us</span></h2>
+
+            <div class="specialties-grid">
+
+                <div class="specialty-card" tabindex="0" aria-label="Freshli roasted beans">
+                    <div class="icon-wrapper">
+                        <i class="fa-solid fa-seedling"></i>
+                    </div>
+                    <h3>Freshly Roasted Beans</h3>
+                    <p>Our beans are freshly roasted to give you that rich aroma and perfect taste every time.</p>
+                </div>
+
+                <div class="specialty-card" tabindex="0" aria-label="Skilled baristas">
+                    <div class="icon-wrapper">
+                        <i class="fa-solid fa-mug-hot"></i>
+                    </div>
+                    <h3>Skilled Baristas</h3>
+                    <p>Expert hands. Artisan brews. Our baristas turn beans into magic.</p>
+                </div>
+
+                <div class="specialty-card" tabindex="0" aria-label="Cozy atmosphere">
+                    <div class="icon-wrapper">
+                        <i class="fa-solid fa-mug-saucer"></i>
+                    </div>
+                    <h3>Cozy atmosphere</h3>
+                    <p>Whether you’re working or unwinding, our café offers the perfect cozy vibe.</p>
+                </div>
+
+                <div class="specialty-card" tabindex="0" aria-label="Sustainable sourcing">
+                    <div class="icon-wrapper">
+                        <i class="fa-solid fa-leaf"></i>
+                    </div>
+                    <h3>Sustainable sourcing</h3>
+                    <p>We source our coffee beans ethically, supporting farmers and protecting the environment.</p>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <section class="contact-section" id="contact">
+        <div class="container contact-container">
+            <h2 class="section-title">Get in <span>Touch</span></h2>
+
+            <form class="contact-form" novalidate>
+
+                <div class="input-group">
+                    <input type="text" name="name" id="name" required>
+                    <label for="name">Full Name</label>
+                    <i class="fa-solid fa-circle-user input-icon"></i>
+                    <span class="error-message">please enter your name.</span>
+                </div>
+
+                <div class="input-group">
+                    <input type="email" name="email" id="email" required>
+                    <label for="email">Email Address</label>
+                    <i class="fa-solid fa-envelope input-icon"></i>
+                    <span class="error-message">please enter your valid email.</span>
+                </div>
+
+                <div class="input-group">
+                    <textarea  id="message" name="message" rows="5" required></textarea>
+                    <label for="message">Your Message</label>
+                    <i class="fa-solid fa-comment input-icon"></i>
+                    <span class="error-message">please write a message.</span>
+                </div>
+
+                <button class="btn btn-primary submit-btn" type="submit">Send Message</button>
+            </form>
+        </div>
+    </section>
+
+
+    <script src="main.js"></script>
+</body>
+</html>
